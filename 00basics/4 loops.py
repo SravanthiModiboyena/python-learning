@@ -55,4 +55,70 @@ for i in range(1,10):
         break
     print(i)
 
+# continue Statement it skips the current iteration and moves to the next one
+
+# example Skip number 5
+
+print("------continue-------")
+for i in range(1,8):
+    if i==5:
+        continue
+    print(i)
+
+
+# pass Statement it does nothing well it is used as a placeholder
+
+# example
+
+print("-------pass-------")
+for i in range(3):
+    pass
+    print(i) 
+
+# else with loop it runs only if the loop completes normally (No breaks)
+
+# example else runs
+
+print("--------else runs--------")
+for i in range(3):
+    print(i)
+else:
+    print("Loop finished")
+
+
+# example for else does not run
+
+print("--------else does not run--------")
+for i in range(1,5):
+    if i ==3:
+        break
+    print(i)
+else:
+    print("Completed")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
