@@ -47,5 +47,12 @@ while i>=5:
     print(i)
     i-=1
 
+#  break statement it stops the loop immediately
+
+print("-------Break--------")
+for i in range(1,10):
+    if i==5:
+        break
+    print(i)
 
 
